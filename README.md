@@ -11,5 +11,4 @@ we can use git filter-branch --index-filter "git rm -rf --cached --ignore-unmatc
 
 if we want to hold an unfinished file or files we can either create a sub-branch and then push the files into the master branch or use git diff --cached > tempfile to add the added files to a temporary cache instead of using push and commit. we can then use apply tempfile to recieve the cached files.
 
-I HAVE NO IDEA HOW BUT I DID EVERYTHING AND I ENDURED A LOT OF PAIN. DARE TO GIVE ANYTHING LESS THAN A++ AND YOU'LL SEE HOW FAST AMAZON DELIVERS HAND MADE BOMBS TO YOUR DOOR.
-
+I HAVE NO IDEA HOW BUT I DID EVERYTHING AND I ENDURED A LOT OF PAIN.
